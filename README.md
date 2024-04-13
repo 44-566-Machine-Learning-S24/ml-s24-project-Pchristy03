@@ -67,6 +67,33 @@ I sent the data through an SVM as well, but since the data is not clumped with d
 I really think there are trends here that can be identified, but not with a categorical classifier. I really think that a linear model with a degree 2 or 3 transformation would yield much better results. In my next attempt I plan on attempting a few transforms on features such as transaction totals, average transaction totals etc.
 
 
+# Project Update (4-12-24)
 
+
+**Trying Out Clustering**
+
+--
+
+When trying out clustering I wanted to see if I could classify spending categories for people by looking at the transactions per day, the daily total expenditure amounts and the country category. Ultimately the data is not very clustered, but it was able to divide the data up into 3 sections that make sense. I personally don't think clustering is the best idea for this data.
+
+**More Dataset Cleaning**
+
+I added one new features to the dataset to see if I could get more information. The new feature is called "transaction_spending_classification". This classifies the a transaction amount based on the total transaction cost. The categorization is as follows:
+```
+bins = [0, 20, 100, 10000000]
+categories = [1, 2, 3]
+```
+
+--
+
+**Neural Net Findings**
+
+I decided to go with a few different features this time for X, but I still wanted to predict the spending classification of a customer. The new X features are as follows:
+```
+"trans_day", "average_cust_expend"
+```
+Those values stand for the date of the transaction and the average customer spending on a given day. 
+
+The results were ver promising from both the test set and the training set! The training set received an accuracy score of 0.83 while the test set got a score of 0.84. This is good in two ways. It shows that the model is not overfit and that its correct over 80% of the time when predicting what category the expenditure may be in!
 
 

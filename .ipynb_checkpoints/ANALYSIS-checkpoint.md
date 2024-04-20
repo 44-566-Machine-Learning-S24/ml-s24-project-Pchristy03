@@ -8,6 +8,8 @@ __What models were used__ (Discuss model tuning as well)
 
 __What worked and what didn't work__ MAKE SURE TO LINK NOTEBOOKS
 
+__Talk about why they did or didnt work__
+
 __What Challenges did I face__
 
 __How did I get around them__

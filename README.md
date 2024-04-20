@@ -123,7 +123,7 @@ I decided to go with a few different features this time for X, but I still wante
 ```
 Those values stand for the date of the transaction and the average customer spending on a given day. 
 
-The results were ver promising from both the test set and the training set! The training set received an accuracy score of 0.83 while the test set got a score of 0.84. This is good in two ways. It shows that the model is not overfit and that its correct over 80% of the time when predicting what category the expenditure may be in!
+The results were very promising from both the test set and the training set! The training set received an accuracy score of 0.83 while the test set got a score of 0.84. This is good in two ways. It shows that the model is not overfit and that its correct over 80% of the time when predicting what category the expenditure may be in!
 
 --
 

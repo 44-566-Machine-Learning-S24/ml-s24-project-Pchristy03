@@ -54,14 +54,17 @@ dataframe['transaction_spending_classification_v2'] = pd.cut(dataframe["total_co
 Here are a few key visualizations comparing different feautures of the dataset
 
 When exploring the data I wanted to see if anything really stuck out when looking at counts of different features in my dataset. From this image its obvious that there are many transcations with relatively low quantity, and price. I did find it interesting that there was an extremely large number of transactions that occurred for just one customer. Here is where I began wonder if this is data about a persons spending or companys.
-[histogram](histogram.png)
+
+![histogram](histogram.png)
 
 Taking a look at the second histogram showed me two things. There seems to be an increase in transactions toward the end of the month (top left) and that the total cost of transactions seemed to increase towards the end of the year as well. I expect this as the end of the year contains a lot of events that may increase spending such as Christmas and the New Years.
-[histogram2](hist2.png)
+
+![histogram2](hist2.png)
 
 I decided to plot the information that I had found above to see if I could get anymore information with a larger more detailed graph. After plotting the relationship between the number of transactions and the week/day of the year the pattern became much more noticable and easier to see. The finding is these graphs fueled the investigation and further analysis of this relationship to see if I could use it to predict exact prices and then then later on spending categories.
-[weekscatter](weeklyscatter.png)
-[dayscatter](dayscatter.png)
+
+![weekscatter](weeklyscatter.png)
+![dayscatter](dayscatter.png)
 
 
 

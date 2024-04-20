@@ -12,6 +12,8 @@
 
 ## Model Results and Comments and Future Improvements
 
+[Linear Regression Notebook Link](linear_regression.ipynb)
+
 ##### Linear Regression
 ```
 Train
@@ -27,6 +29,8 @@ RMSE: 2.129693450703618
 After running the model on the test_set I ultimately got the same results. The R2 value changed by ~0.001 and the RMSE changed by less than 0.01. For the inputs I feel that they all provide good insight into the value being predicted, but I don't think its a linear correlation. There were not many challenges here other than getting bad results. It was nice to see that even though its very weak the train and test set performed very similarly. I think a transformation to the data could yeild better results. Potentially a degree 2 or 3 transformation.
 
 In terms of model tuning, tried many different features, but ultimately 0.07 was the highest training score that I was able to get. The final model used the features "daily_transactions", "weekly_transactions" and "average_daily_total".
+
+## All other models and their results can be found in the [classification](classification.ipynb) notebook.
 
 ##### Decision Tree Classifier
 ```

@@ -4,10 +4,10 @@ Repo for all project documents
 
 Links to Each Markdown Section
 
-* [RAW_DATA]("RAW_DATA.md")
-* [DATA]("DATA.md")
-* [ANALYIS]("ANALYSIS.md")
-* [CONCLUSIONS]("CONCLUSIONS.md")
+* [RAW_DATA](RAW_DATA.md)
+* [DATA](DATA.md)
+* [ANALYIS](ANALYSIS.md)
+* [CONCLUSIONS](CONCLUSIONS.md)
 
 
 # Project Introduction and Overview

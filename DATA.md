@@ -1,6 +1,6 @@
 
 # Exploration Introduction
-A full exploration of the data can be found here in the [initial_exploration](intitial_exploration.ipynb) notebook.
+A full exploration of the data can be found here in the [initial_exploration](initial_exploration.ipynb) notebook.
 
 To start the exploration I just printed out general information about the dataset using .value_counts() and .info() to see if I could gain insight on what I may need to do to the data later. The main thing that I noticed here is that I would have to do a good amount of working getting the InvoiceDate into a usable state. This including turning it into a datetime object and using that value to gather other information like month, day, etc. I also noticed that there were many more transaction mades below 20 dollars, but I expected that sort of trend.
 
